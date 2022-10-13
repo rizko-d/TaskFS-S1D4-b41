@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background: #e3e7eb;
+    scroll-behavior: smooth;
+    margin: 0;
+}
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+.btn-primary {
+    background: #000;
+    color: aqua;
+    border: 1px solid #000;
+    transition: all 300ms ease;
+}
+
+.btn-primary:hover {
+    background: #fff;
+    color: #000;
+    transition: all 300ms ease;
+}
+
+/* blog form */
+.blog-form {
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+}
+.blog-form .form-container { 
+    width: 500px;
+}
+
+.blog-form .form-container h1 { 
+    text-align: center;
+    margin-bottom: 40px;
+} 
+
+.blog-form form label { 
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.blog-form form input, textarea {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: beige;
+    border: 1px solid rgb(241, 238, 238);
+    border-radius: 5px;
+}
+
+.blog-form form textarea { 
+    height: 250px;
+}
+
+.blog-list { 
+    margin: 80px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blog-list .blog-list-item { 
+    width: 80%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+}
+
+.blog-list .blog-list-item .blog-image { 
+    flex: 1;
+}
+.blog-list .blog-list-item .blog-image img { 
+    height: 300px;
+    object-fit: contain;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+.btn-primary {
+    background: #000;
+    color: aqua;
+    border: 1px solid #000;
+    transition: all 300ms ease;
+}
+
+.btn-primary:hover {
+    background: #fff;
+    color: #000;
+    transition: all 300ms ease;
+}

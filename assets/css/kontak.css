@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background: #e3e7eb;
+    scroll-behavior: smooth;
+    margin: 0;
+}
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background: #fff;
+    color: #000;
+    transition: all 300ms ease;
+}
+
+/* Main */
+
+.h1 {
+    font-size: 15px;
+    font-style: bold;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 85px;
+}
+form {
+    position: relative;
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+}
+
+form div { 
+    margin-top: 20px;
+}
+
+label { 
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input, select, textarea {
+    border: 1px solid black;
+    background-color: #fbfafa;
+    width: 100%;
+    resize: none;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #A7FFE4;
+    color: black;
+    padding: 6px 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+    font-size: 15px; 
+    cursor: pointer;
+    float: right;
+}
+
+button:hover {
+    background-color: whitesmoke;
+}
